@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "scripts": {"dev": "node --watch server.js"},
   "dependencies": {
     "@supabase/supabase-js": "^2.112.4",
     "dotenv": "^17.4.2",
