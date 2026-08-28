@@ -1,9 +1,12 @@
 {
   "type": "module",
-  "scripts": {"dev": "node --watch server.js"},
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.4",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1"
   }
 }
